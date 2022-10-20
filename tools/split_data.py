@@ -16,7 +16,7 @@ def main():
         os.makedirs(path)
     
     split_rate = 0.2
-    init_dataset = ''
+    init_dataset = 'D:/2171247/SIPaKMeD_CROPPED'
     new_dataset = 'datasets'
     random.seed(0)
 
