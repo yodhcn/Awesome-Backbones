@@ -13,7 +13,6 @@ def main():
         txt_file = open('datas/' + dataset + '.txt', 'w')
         datasets_path_ = os.path.join(datasets_path, dataset)
         classes_name      = os.listdir(datasets_path_)
-        
         for name in classes_name:
             if name not in classes:
                 continue
@@ -22,7 +21,7 @@ def main():
             images_name = os.listdir(images_path)
             for photo_name in images_name:
                 _, postfix = os.path.splitext(photo_name)
-                if postfix not in ['.jpg', '.png', '.jpeg','.JPG', '.PNG', '.JPEG']:
+                if postfix not in ['.jpg', '.png', '.jpeg','.JPG', '.PNG', '.JPEG', '.bmp']:
                     continue
                 txt_file.write('%s'%(os.path.join(images_path, photo_name)) + ' ' + str(cls_id))
                 txt_file.write('\n')
