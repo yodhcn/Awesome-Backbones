@@ -1,5 +1,5 @@
-daisy 0
-dandelion 1
-roses 2
-sunflowers 3
-tulips 4
+im_Dyskeratotic 0
+im_Koilocytotic 1
+im_Metaplastic 2
+im_Parabasal 3
+im_Superficial-Intermediate 4
